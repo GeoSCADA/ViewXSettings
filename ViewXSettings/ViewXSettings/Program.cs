@@ -30,14 +30,23 @@ namespace ViewXSettings
 		{
 			Console.WriteLine("ViewX Settings Reader and Changer");
 			Console.WriteLine("Arguments: [username] [type] [key-to-change] [new-value]");
-			Console.WriteLine("[username] will find the correct folder in AppData\\Roaming, ");
-			Console.WriteLine("    e.g. \"\" is default user, or use \"VVXLocalUser\"");
+			Console.WriteLine();
+			Console.WriteLine("[username] will find the correct folder in AppData\\Roaming, which is the default location from Geo SCADA 2023.");
+			Console.WriteLine(" e.g. \"\" is default user, or use e.g. \"VVXLocalUser\"");
+			Console.WriteLine(" Specify a path to C: instead by starting with \\  e.g. \"\\Users\\Fred\\AppData\\Local\"");
+			Console.WriteLine();
 			Console.WriteLine("[type] is g(lobal) or the head number (1,2,...) e.g. \"g\"");
+			Console.WriteLine();
 			Console.WriteLine("[key-to-change] is optional - run first without this to see all keys and values.");
+			Console.WriteLine();
 			Console.WriteLine("[new-value] is needed if you supply a key.");
-			Console.WriteLine("e.g. \"VVXLocalUser\" g GuestGlobalInactivityTimeout 1");
-			Console.WriteLine("e.g. \"VVXLocalUser\" g GeneralcheckViewXLogoutWithNoDirtyDocuments 15");
+			Console.WriteLine();
 			Console.WriteLine("e.g. \"\" 1 GuestProfileFullScreenState 1");
+			Console.WriteLine("e.g. \"VVXLocalUser\" g GuestGlobalInactivityTimeout 1");
+			Console.WriteLine("e.g. \"\\Users\\Fred\\AppData\\Local\" g GeneralcheckViewXLogoutWithNoDirtyDocuments 15");
+			Console.WriteLine();
+			Console.WriteLine("Using this to change settings may result in unpredictable behavior. Try using ViewX and comparing setting changes.");
+			Console.WriteLine();
 
 			string AppDataLocation = "";
 			string filePath = "\\Schneider Electric\\ClearSCADA\\ViewX Global Settings.dat";
@@ -56,7 +65,14 @@ namespace ViewXSettings
 				}
 				else
 				{
-					AppDataLocation = "C:\\Users\\" + args[0] + "\\AppData\\Roaming";
+					if (args[0].Substring(0,1) == "\\")
+					{
+						AppDataLocation = "C:" + args[0];
+					}
+					else
+					{
+						AppDataLocation = "C:\\Users\\" + args[0] + "\\AppData\\Roaming";
+					}
 				}
 			}
 			if (args.Length >= 2)

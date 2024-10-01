@@ -11,3 +11,10 @@ C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\o
 C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.csproj.CoreCompileInputs.cache
 C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.exe
 C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.pdb
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.exe.config
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.exe
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.pdb
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.csproj.AssemblyReference.cache
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.csproj.CoreCompileInputs.cache
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.exe
+C:\Users\sesa170272\Documents\GitHub\_MoreProjects\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.pdb
