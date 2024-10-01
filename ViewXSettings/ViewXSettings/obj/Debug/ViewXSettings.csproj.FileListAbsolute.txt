@@ -1,0 +1,13 @@
+C:\Dev\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.exe.config
+C:\Dev\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.exe
+C:\Dev\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.pdb
+C:\Dev\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.csprojResolveAssemblyReference.cache
+C:\Dev\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.exe
+C:\Dev\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.pdb
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.exe.config
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.exe
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\bin\Debug\ViewXSettings.pdb
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.csprojAssemblyReference.cache
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.csproj.CoreCompileInputs.cache
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.exe
+C:\Users\sesa170272\Documents\Source\ViewXSettings\ViewXSettings\ViewXSettings\obj\Debug\ViewXSettings.pdb
